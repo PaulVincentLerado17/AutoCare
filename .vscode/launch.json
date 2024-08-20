@@ -1,0 +1,32 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "test_drive",
+            "cwd": "test_drive",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "test_drive (profile mode)",
+            "cwd": "test_drive",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "test_drive (release mode)",
+            "cwd": "test_drive",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "Flutter Tests",
+            "program": "test",
+            "cwd": "test_drive",
+            "request": "launch",
+            "type": "dart"
+        }
+    ]
+}
